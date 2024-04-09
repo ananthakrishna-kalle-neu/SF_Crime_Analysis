@@ -1,9 +1,24 @@
 # SF_Crime_Analysis
 
-Description: In this project, I would like to know the nicest neighborhoods in San Francisco that have the lowest crime rates, in case I decide to move there after I graduate from Hawaii. Therefore, I retrieved the 15-year data (between 2003 and 2018) of crime events, from the San Francesco Police Department (https://data.sfgov.org/Public-Safety/-Change-Notice-Police-Department-Incidents/tmnf-yvry).
+Title: Exploring the Safest Neighborhoods in San Francisco: A Comprehensive Analysis of Crime Data
 
-During EDA, I found some interesting results. For instance, among all types of crime (e.g., “Theft”, “Assault”, “Drug”), “Theft” is the most frequent one (22%). Also, midnight and noon are the periods with more crime per day and Friday is the most dangerous day per week. January and March both have the most number of the incidents, as opposed to the holiday seasons (in December and January).
+Introduction:
+As an aspiring resident looking to relocate to San Francisco post-graduation, ensuring a safe and secure neighborhood is paramount. To facilitate this decision, an in-depth exploration of crime data spanning 15 years (2003-2018) from the San Francisco Police Department was conducted. This project aims to identify the nicest neighborhoods with the lowest crime rates, providing valuable insights for prospective movers.
 
-Furthermore, I explored and visualized the spatial distribution of the incidents on SF maps. I also analyzed how they interact with each other on heat maps. I also performed time series analysis to check how different crimes have evolved with time. I then fitted the data with an ARIMA model, combined with hyper-parameter tuning, to forecast the crime rates in the next year.
+Exploratory Data Analysis (EDA):
+The initial phase of this project involved thorough EDA of the crime data. Noteworthy findings include:
 
-A future follow-up of this project could be investigating the house price in SF, which is another very important factor for my moving plans.
+Crime Distribution: Analysis revealed that theft is the most prevalent crime, constituting 22% of all reported incidents.
+Temporal Patterns: Crime rates fluctuate throughout the day, with peaks observed at midnight and noon. Additionally, Fridays emerge as the most perilous day of the week.
+Seasonal Trends: Surprisingly, January and March exhibit the highest incidence of crimes, contrasting with the expected holiday season surge in December and January.
+Spatial Analysis:
+Utilizing geospatial visualization techniques, the spatial distribution of incidents across San Francisco was meticulously examined. This allowed for the identification of crime hotspots and safer regions within the city. Heat maps provided further insight into the clustering and intensity of criminal activity in specific areas.
+
+Time Series Analysis:
+To discern long-term trends and patterns, a time series analysis was conducted for various crime categories. This facilitated the identification of evolving crime trends over the 15-year period. Subsequently, an ARIMA model, augmented with hyper-parameter tuning, was employed to forecast future crime rates, aiding in prospective neighborhood evaluations.
+
+Future Directions:
+While this project provides valuable insights into neighborhood safety through crime data analysis, several avenues for future exploration exist. One potential avenue involves investigating housing prices in San Francisco, as they constitute a critical factor in relocation decisions. By integrating housing price data with crime statistics, a comprehensive assessment of neighborhood desirability can be attained, further assisting individuals in making informed relocation choices.
+
+Conclusion:
+In conclusion, this project serves as a comprehensive guide for individuals seeking to identify the safest neighborhoods in San Francisco. Through rigorous data analysis and visualization techniques, valuable insights into crime patterns and trends were uncovered, empowering prospective movers to make informed decisions regarding their future residence.
